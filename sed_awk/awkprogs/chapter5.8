@@ -1,0 +1,11 @@
+#! /bin/sh
+# Print command in sed
+
+sed -n '
+/^\.Ah/{
+p
+=
+s/"//g
+s/^\.Ah //p
+}
+' $1

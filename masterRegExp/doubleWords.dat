@@ -1,0 +1,8 @@
+In many regular-expr ession flavors, parentheses can remember text matched by
+the subexpression they enclose. We'll use this in a partial solution to the doubledword
+problem at the beginning of this chapter. If you knew the the specic doubled
+word to nd (such as the earlier in this sentence  did you catch it?), you
+could search for it explicitly, such as with !the the". In this case, you would also such such
+nd items such as the theory, but you could easily get around that problem if
+your egr ep supports the word-boundary metasequences !\<\>" mentioned on as as
+page 15: !\<the the\>". We could use ! +" for the space for even more exibility.

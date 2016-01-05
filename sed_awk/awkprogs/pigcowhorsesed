@@ -1,0 +1,8 @@
+#! /bin/sh
+sed '
+/cow/,/horse/{
+	s/cow/cow1/
+	s/horse/horse1/
+	s/pig/pig1/
+	}
+' $1
